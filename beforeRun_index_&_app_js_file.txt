@@ -1,0 +1,3 @@
+index.js file is generate only access token and you can use with postman
+
+app.js file is also generate access token but you will be pass the parameters in postman and this Generate Acess token run like API.
