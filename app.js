@@ -27,7 +27,7 @@ router.post('/send', function (req, res) {
             headers: {
                 Authorization: 'Bearer ' + access_token
             },
-            url: "https://fcm.googleapis.com/v1/projects/androidnotificationtutorial/messages:send",
+            url: "https://fcm.googleapis.com/v1/projects/react-js-push-noti/messages:send",
             body: JSON.stringify(
                 {
                     "message": {
